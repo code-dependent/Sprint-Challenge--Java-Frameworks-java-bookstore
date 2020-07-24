@@ -59,7 +59,7 @@ public class RestExceptionHandler
     }
 
     /**
-     * Our custom handling of ResourceNotFoundExceptions. This gets thrown manually by our application.
+     * Our custom handling of ResourceNotFoundException(s. This gets thrown manually by our application.
      *
      * @param rnfe All the information about the exception that is thrown.
      * @return The error details for displaying to the client plus the status Not Found.
